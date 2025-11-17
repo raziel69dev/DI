@@ -1,0 +1,18 @@
+$primary-color: #ff7f50; // коралловый для кнопок "Купить"
+$secondary-color: #4caf50; // зеленый для кнопок "Арендовать"
+$bg-color: #f9f9f9; // светлый фон
+$text-color: #333;
+$card-bg: #fff;
+$card-shadow: rgba(0, 0, 0, 0.05);
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

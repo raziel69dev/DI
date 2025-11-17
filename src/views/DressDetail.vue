@@ -1,6 +1,6 @@
 <template>
   <div class="detail-page">
-    <router-link to="/">← Назад</router-link>
+    <router-link to="/DI">← Назад</router-link>
     <img :src="dress.image" :alt="dress.name" />
     <h2>{{ dress.name }}</h2>
     <p>{{ dress.description }}</p>

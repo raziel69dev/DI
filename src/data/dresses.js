@@ -4,7 +4,7 @@ import dress1_3 from '@/assets/dresses/dress1.webp'
 import dress2_1 from '@/assets/dresses/dress2.webp'
 import dress2_2 from '@/assets/dresses/dress2.webp'
 
-export const dresses = [
+const dresses = [
   {
     id: 1,
     name: 'Красное вечернее платье',
@@ -29,4 +29,14 @@ export const dresses = [
     price: 10000,
     rentPrice: 3500,
   },
+  {
+    id: 4,
+    name: 'Черное коктейльное платье',
+    images: [dress1_1], // пример одного фото
+    description: 'Идеально для вечеринок и коктейльных мероприятий.',
+    price: 10000,
+    rentPrice: 3500,
+  },
 ]
+
+export default dresses
